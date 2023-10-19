@@ -1,6 +1,6 @@
 ﻿namespace AlphaSystemDesktop
 {
-    partial class formConsulta
+    partial class frmConsulta
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formConsulta));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConsulta));
             this.panelMenu = new System.Windows.Forms.FlowLayoutPanel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.btnInicio = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.panelFormulario = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dateCompetencia = new System.Windows.Forms.DateTimePicker();
             this.txtFuncionario = new System.Windows.Forms.TextBox();
             this.lblCompetencia = new System.Windows.Forms.Label();
             this.lblTipoDeDemonstrativo = new System.Windows.Forms.Label();
             this.lblFuncionario = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelFormulario.SuspendLayout();
             this.SuspendLayout();
@@ -55,7 +56,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(134, 517);
+            this.panelMenu.Size = new System.Drawing.Size(134, 876);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
@@ -113,7 +114,7 @@
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(134, 0);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(1134, 50);
+            this.panelTitleBar.Size = new System.Drawing.Size(1280, 50);
             this.panelTitleBar.TabIndex = 1;
             // 
             // panelFormulario
@@ -128,8 +129,17 @@
             this.panelFormulario.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelFormulario.Location = new System.Drawing.Point(134, 50);
             this.panelFormulario.Name = "panelFormulario";
-            this.panelFormulario.Size = new System.Drawing.Size(1134, 352);
+            this.panelFormulario.Size = new System.Drawing.Size(1280, 352);
             this.panelFormulario.TabIndex = 2;
+            this.panelFormulario.Paint += new System.Windows.Forms.PaintEventHandler(this.panelFormulario_Paint);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(394, 174);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(650, 21);
+            this.comboBox1.TabIndex = 16;
             // 
             // button1
             // 
@@ -188,24 +198,28 @@
             this.lblFuncionario.TabIndex = 9;
             this.lblFuncionario.Text = "Funcionario:";
             // 
-            // comboBox1
+            // panel1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(394, 174);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(650, 21);
-            this.comboBox1.TabIndex = 16;
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(134, 402);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1280, 474);
+            this.panel1.TabIndex = 3;
             // 
-            // Form1
+            // frmConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1268, 517);
+            this.ClientSize = new System.Drawing.Size(1414, 876);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelFormulario);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmConsulta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Alpha System";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelMenu.ResumeLayout(false);
             this.panelFormulario.ResumeLayout(false);
@@ -229,6 +243,7 @@
         private System.Windows.Forms.Label lblTipoDeDemonstrativo;
         private System.Windows.Forms.Label lblFuncionario;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

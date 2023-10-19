@@ -117,35 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="WhatsApp Image 2023-10-11 at 14.261" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2023-10-11 at 14.26.271.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="v5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\v5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search-13-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search-13-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\v4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="house-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\house-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WhatsApp Image 2023-10-11 at 14.26.27" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2023-10-11 at 14.26.27.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WhatsApp Image 2023-10-18 at 14.53.55" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2023-10-18 at 14.53.55.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WhatsApp Image 2023-10-18 at 15.22.51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2023-10-18 at 15.22.51.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WhatsApp Image 2023-10-11 at 15.19.29" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2023-10-11 at 15.19.29.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnConsultas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAhVJREFUWEftlrtKA0EYhUWsxFIkiPgAYiXWFlbBQkQsrK1EREQk+CoWFiksxSrk
+        QSzEQsRaxEJERCR+hz1ZxjGTvRit/OAUy3+d2dl/dmwYvV5vBu2hC3SNHq0bdIn2UcPuo4OkKnyK3lAR
+        8jlDsw7/GSRaQw+oKk9ow2nqQYId9KFsNVHsrtNVg0CtfFDxW9RCy2jaWkLHSGchRjk2nbYcBOidx9v+
+        jk7QhN2+IRs6QvFZ0esofyZw1oELUfF1mwvBt4niJto2DwdHrT4OPrG5NMQcZqE5WsSczWlw0nceonee
+        3PYUxIwjzYqQI5vT4KQhE9KyqTLEHmQpcjo2pcEp7nrZpsoQu5ilyLmzKQ1OGq0h0zZVhtipLEXOi01p
+        cBplA5NZipxSDcTDZMmmyhC7kKXIubcpDU661UKObaoMsbodQ7o2pcEpDtKO1P0Mr5QgoHgxODVQPIiK
+        v98IYuJ5okE0b/NwcNR9HqKGmjYXgu8qelVgwLnNxeA8i3SBhKgJjddxu31DNqSVx8WfUbnV9yFgAw26
+        jjWo1IiGjL5zSaddZyd+5320/dtOXR6CdtFPfkhCajexieLXUQZtu4qG1G5CZ6LtBEXI5xzNo20/h9Rr
+        QhA4h/TH00F36MW6R12k37Ivh43n0TZRBxVz0ZD/Jvr8N9FHz1t2+X0oNqiJ4l+2UULBuIlrm/4Oim4h
+        zRTumN7KJ4MJzBZIDwIoAAAAAElFTkSuQmCC
+</value>
   </data>
 </root>

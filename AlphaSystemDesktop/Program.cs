@@ -16,7 +16,7 @@ namespace AlphaSystemDesktop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formConsulta());
+            Application.Run(new frmLogin());
         }
     }
 }

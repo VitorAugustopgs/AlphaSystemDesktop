@@ -129,5 +129,35 @@ namespace AlphaSystemDesktop.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_10_11_at_15_19_29 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-10-11 at 15.19.29", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_10_18_at_14_53_55 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-10-18 at 14.53.55", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_10_18_at_15_22_51 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-10-18 at 15.22.51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

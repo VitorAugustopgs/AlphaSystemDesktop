@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AlphaSystemDesktop
 {
-    public partial class formConsulta : Form
+    public partial class frmConsulta : Form
     {
-        public formConsulta()
+        public frmConsulta()
         {
             InitializeComponent();
         }
@@ -58,6 +58,11 @@ namespace AlphaSystemDesktop
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelFormulario_Paint(object sender, PaintEventArgs e)
         {
 
         }
